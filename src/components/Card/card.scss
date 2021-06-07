@@ -1,0 +1,15 @@
+.card{
+  background-color: white;
+  box-shadow: 1px 4px 13px #888888;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  width: 280px;
+
+  &.card-primary {
+    background-color: #056ff6;
+    color: white;
+    border-color: #1ea7fd;
+  }
+}
